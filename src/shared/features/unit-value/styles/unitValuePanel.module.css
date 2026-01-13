@@ -1,0 +1,17 @@
+.wrapper {
+  gap: 40px;
+  padding: 24px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.title {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}

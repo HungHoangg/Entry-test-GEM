@@ -1,0 +1,44 @@
+.wrapperSwitch {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.wrapperUnit {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #141414;
+  border: 1px solid #2a2a2a;
+  height: 44px;
+  width: 162px;
+  padding: 2px;
+}
+
+.btn {
+  min-width: 44px;
+  width: 50%;
+  padding: 0 12px;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  user-select: none;
+  transition: background 120ms ease, color 120ms ease;
+  height: 100%;
+}
+
+.active {
+  background: #2a2a2a;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.active:hover {
+  background: #2f2f2f;
+}
+
+.label {
+  color: #ddd;
+}
